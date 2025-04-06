@@ -86,7 +86,34 @@ main {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+/* Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
 
+header.dark-theme {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+nav ul li a.dark-theme {
+    color: #e0e0e0;
+}
+
+nav ul li a.dark-theme:hover {
+    color: #bb86fc;
+}
+
+.feature.dark-theme {
+    background: #1f1f1f;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+footer.dark-theme {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
 .feature h3 {
     margin-bottom: 1rem;
     color: #35424a;
